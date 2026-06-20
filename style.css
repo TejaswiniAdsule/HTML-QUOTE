@@ -1,0 +1,209 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body
+{
+	background-color:#f8f5f2;
+	font-family:Georgia, serif;
+	color:#333;
+}
+
+header
+{
+	background-color:#1e293b;
+	color:white;
+	text-align:center;
+	padding:50px;
+}
+
+header h1
+{
+	font-size:55px;
+	margin-bottom:10px;
+	letter-spacing:2px;
+	transition:0.4s;
+}
+
+header h1:hover
+{
+	color:#d4a373;
+}
+
+header p
+{
+	font-size:20px;
+}
+
+.hero
+{
+	width:80%;
+	margin:40px auto;
+	background-color:white;
+	padding:50px;
+	border-radius:20px;
+	box-shadow:0px 4px 15px rgba(0,0,0,0.1);
+	text-align:center;
+	transition:0.4s;
+}
+
+.hero:hover
+{
+	box-shadow:0px 15px 30px rgba(0,0,0,0.2);
+	background-color:#fcfaf8;
+}
+
+.hero q
+{
+	font-size:38px;
+	font-style:italic;
+	color:#1e293b;
+}
+
+.hero cite
+{
+	display:block;
+	margin-top:20px;
+	font-size:22px;
+	color:#c08457;
+}
+
+.title
+{
+	text-align:center;
+	margin:40px 0;
+	color:#1e293b;
+	font-size:35px;
+}
+
+.quotes
+{
+	width:80%;
+	margin:auto;
+}
+
+.card
+{
+	background-color:white;
+	padding:30px;
+	margin-bottom:25px;
+	border-radius:15px;
+	box-shadow:0px 4px 12px rgba(0,0,0,0.08);
+	border-left:6px solid #c08457;
+	transition:0.4s;
+}
+
+.card:hover
+{
+	box-shadow:0px 12px 25px rgba(0,0,0,0.2);
+	border-left:6px solid #1e293b;
+	background-color:#fcfaf8;
+}
+
+.card h3
+{
+	margin-bottom:15px;
+	color:#1e293b;
+}
+
+.card q
+{
+	font-size:24px;
+	line-height:35px;
+}
+
+.card cite
+{
+	display:block;
+	text-align:right;
+	margin-top:15px;
+	color:#c08457;
+	font-weight:bold;
+}
+
+.authors
+{
+	width:80%;
+	margin:auto;
+}
+
+.author-card
+{
+	background-color:white;
+	padding:25px;
+	margin-bottom:20px;
+	border-radius:15px;
+	box-shadow:0px 4px 12px rgba(0,0,0,0.08);
+	text-align:center;
+	transition:0.4s;
+}
+
+.author-card:hover
+{
+	box-shadow:0px 12px 25px rgba(0,0,0,0.2);
+	background-color:#fcfaf8;
+}
+
+.author-card h3
+{
+	color:#1e293b;
+	margin-bottom:10px;
+}
+
+.author-card p
+{
+	line-height:28px;
+}
+
+.featured
+{
+	width:80%;
+	margin:40px auto;
+	background-color:#1e293b;
+	padding:40px;
+	border-radius:20px;
+	text-align:center;
+	transition:0.4s;
+}
+
+.featured:hover
+{
+	box-shadow:0px 15px 30px rgba(0,0,0,0.25);
+}
+
+.featured q
+{
+	font-size:30px;
+	color:white;
+	font-style:italic;
+}
+
+.featured cite
+{
+	display:block;
+	margin-top:15px;
+	color:#d4a373;
+	font-size:20px;
+}
+
+q
+{
+	transition:0.4s;
+}
+
+q:hover
+{
+	color:#c08457;
+}
+
+footer
+{
+	background-color:#1e293b;
+	color:white;
+	text-align:center;
+	padding:20px;
+	margin-top:30px;
+}
